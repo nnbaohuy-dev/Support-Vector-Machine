@@ -6,7 +6,7 @@ X_train, y_train, X_test, y_test, X_val, y_val = data_preprocessing()
 print("Hoàn thành xử lý dữ liệu")
 
 model = SVC()
-model = SVC(kernel='linear', C=1)
+model = SVC(kernel='linear', C=0.005)
 
 model.fit(X_train, y_train)
 
