@@ -1,0 +1,9 @@
+ipykernel
+pandas
+numpy
+matplotlib
+polars
+opencv-python
+idx2numpy
+scikit-learn
+tqdm
